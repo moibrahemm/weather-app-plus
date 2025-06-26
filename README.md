@@ -8,7 +8,7 @@ Weather App Plus is a simple and clean Flutter application that displays real-ti
 
 | Clear | Sunny | Rain | Mist | Overcast |
 |:-----:|:-----:|:----:|:----:|:--------:|
-| <img src="screenshots/clear.png" width = "160 px" /> | <img src="screenshots/sunny.png" width = "160 px" /> | <img src="screenshots/rain.png" width = "160 px" /> | <img src="screenshots/mist.png" width = "160 px" /> | <img src="screenshots/overcast.png" /> |
+| <img src="screenshots/clear.png" width = "160 px" /> | <img src="screenshots/sunny.png" width = "160 px" /> | <img src="screenshots/rain.png" width = "160 px" /> | <img src="screenshots/mist.png" width = "160 px" /> | <img src="screenshots/overcast.png" width = "160 px" /> |
 
 ---
 
