@@ -1,22 +1,21 @@
 # 🌦️ Weather App Plus
 
-A Flutter weather application that displays current weather conditions based on your **current location** or **searched city**.  
-Built with BLoC, Dio, and WeatherAPI for smooth state management and network handling.
+Weather App Plus is a simple and clean Flutter application that displays real-time weather information using the WeatherAPI. It features current conditions, forecasts, dynamic UI updates based on weather, and automatic location fetching.
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots (from actual app UI)
 
 | Clear | Sunny | Rain | Mist | Overcast |
 |:-----:|:-----:|:----:|:----:|:--------:|
-| ![](screenshots/clear.png) | ![](screenshots/sunny.png) | ![](screenshots/rain.png) | ![](screenshots/mist.png) | ![](screenshots/overcast.png) |
+| <img src="screenshots/clear.png" width="160"/> | <img src="screenshots/sunny.png" width="160"/> | <img src="screenshots/rain.png" width="160"/> | <img src="screenshots/mist.png" width="160"/> | <img src="screenshots/overcast.png" width="160"/> |
 
 ---
 
 ## ✨ Features
 
 - 🌍 **Auto location detection** (with fallback if denied)
-- 🔍 **City search** via TextField
+- 🔍 **Search functionality** to find weather information by city name
 - 🎨 **Dynamic gradients** based on weather condition
 - 🌤️ **Custom weather icons** for day and night
 - 📊 **Hourly forecast** in a responsive horizontal list
@@ -53,6 +52,8 @@ const String weatherApiKey = 'YOUR_API_KEY_HERE';
 ```
 
 > ⚠️ `lib/secrets.dart` is ignored in `.gitignore` and must be added manually.
+
+Get your API key from [WeatherAPI.com](https://www.weatherapi.com/).
 
 ---
 
@@ -96,9 +97,3 @@ Feel free to fork or use as a reference for learning state management and weathe
 ## 👤 Author
 
 Built with ❤️ by **Muhammed Ibrahem**
-
----
-
-## 📃 License
-
-This project is open source and available under the [MIT License](LICENSE).
