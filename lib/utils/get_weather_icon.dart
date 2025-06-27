@@ -1,7 +1,7 @@
 String getWeatherIcon(String condition) {
   switch (condition) {
     case 'Sunny':
-      return 'assets/sunny.png';
+      return 'assets/icons/sunny.png';
 
     case 'Clear':
       return 'assets/icons/night_clear.png';
@@ -56,7 +56,7 @@ String getWeatherIcon(String condition) {
     case 'Moderate or heavy rain with thunder':
     case 'Patchy light snow with thunder':
     case 'Moderate or heavy snow with thunder':
-      return 'assets/thunder.png';
+      return 'assets/icons/thunder.png';
 
     default:
       return 'assets/icons/sunny.png';
